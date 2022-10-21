@@ -29,6 +29,7 @@ public class Apartament extends Casa{
         this.suprafata = getLungime() * getLatime();
     }
 
+    @Override
     public void setLatime(int latime){
         super.setLatime(latime);
         this.suprafata = getLungime()*getLatime();
